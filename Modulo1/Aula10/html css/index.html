@@ -6,93 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Aula09 - Listas</title>
+    <title>Aula10 - Links e Âncoras</title>
 </head>
 
 <header>
-    <h1>Aula09 - Listas</h1>
+    <h1>Aula10 - Links e Âncoras/Hyperlink</h1>
 </header>
 
 <body>
     <section>
-        <h1>Trabalhando com listas</h1>
-        <h2>Listas ordenadas</h2>
-        <!-- Orded List -->
-        <ol type="1" start="1"> <!-- 1 A a I i -->
-            <li>Acordar</li>
-            <li>Ligar para ...</li>
-            <li>Tomar café</li>
-            <li>Escovar os dentes</li>
-            <li>Ir para faculdade</li>
-            <li>Almoçar</li>
-            <li>Ir para o trabalho</li>
-            <li>Voltar para casa</li>
-            <li>Jantar</li>
-            <li>Dormir</li>
-        </ol>
-        <h2>Listas não ordenadas</h2>
-        <!-- Unorded List -->
-        <ul type="square"> <!-- disc / circle / square / none -->
-            <li>Pão</li>
-            <li>Leite</li>
-            <li>Tomate</li>
-            <li>Alface</li>
-            <li>Manteiga</li>
-            <li>Arroz</li>
-            <li>Feijão</li>
-        </ul>
-        <h2>Minhas linguagens favoritas</h2>
-        <ol>
-            <li>Antigas</li>
-            <ol type="A">
-                <li>Clipper</li>
-                <li>Fortran</li>
-                <li>Delphi</li>
-            </ol>
-            <li>Novas</li>
-            <ol type="A" start="5">
-                <li>Java</li>
-                <li>PHP</li>
-                <li>Javascript</li>
-            </ol>
-        </ol>
-        <h2>Meus jogos favoritos</h2>
-        <ol>
-            <li>Xbox 360</li>
-            <ul type="disc">
-                <li>Skate 3</li>
-                <li>MW3</li>
-                <li>COD: Black Ops</li>
+        <h1>Usando links externos</h1>
+        <p>Você pode acesso meu <a href="https://github.com/leborges" target="_blank" rel="external">repositório público no GitHub</a></p>
+        <p>Você também pode acessar meu <a href="https://www.linkedin.com/in/leonardo-borges-nh/" target="_blank" rel="external">Linkedin</a></p>
+        <h2>Usando links interno</h2>
+        <p>Esta é a primeira página do site, se quiser você pode acessar a <a href="pag02.html" rel="next">segunda página</a></p>
+        <p>
+            <ul>
+                <li><a href="../../aulas-pdf/01 - História da Internet.pdf" download="dados_cadastrais.pdf">Aula 10 PDF</a></li>
+                <li><a href="../../aulas-pdf/01 - História da Internet.pdf" download="dados_cadastrais.pdf" type="application/pdf">Aula 10 PDF</a></li>
+                <li><a href="../../aulas-pdf/01 - História da Internet.zip" download="dados_cadastrais.zip" type="application/zip">Aula 10 ZIP</a></li>
             </ul>
-            <li>Xbox One</li>
-            <ul type="disc">
-                <li>Dead Rising 3</li>
-                <li>Dying Light</li>
-                <li>COD: Black Ops III</li>
-            </ul>
-            <li>Computador</li>
-            <ul type="disc">
-                <li>COD: Warzone</li>
-                <li>Forza Horizon</li>
-                <ul type="circle">
-                    <li>Forza Horizon 3</li>
-                    <li>Forza Horizon 4</li>
-                </ul>
-                <li>Minecraft</li>
-            </ul>
-        </ol>
-        <h2>Lista de definições</h2>
-        <!-- Definition List -->
-        <dl>
-            <!-- Definition Title -->
-            <dt>HTML</dt>
-            <!-- Definition Describe -->
-            <dd>Linguagem de marcação para criação de um site.</dd>
-            <dt>CSS</dt>
-            <dd>Linguagem de marcação para criação de design de um site.</dd>
-            <dt>Javascript</dt>
-            <dd>Linguagem de programação para interatividade com um site.</dd>
-        </dl>
+        </p>
     </section>
 </body>
 
