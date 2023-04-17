@@ -1,0 +1,20 @@
+body {
+    font: 14pt Arial;
+}
+header {
+    padding: 1px;
+    max-width: 550px;
+    text-align: center;
+    margin: auto;
+    background-color: dimgray;
+    color: white;
+}
+section p {
+    text-indent: 20px;
+}
+section span {
+    font-weight: bold;
+}
+#imagens {
+    text-align: center;
+}
