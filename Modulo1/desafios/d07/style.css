@@ -24,4 +24,5 @@ picture img {
     margin-left: auto;
     width: 80%;
     display: block;
+    aspect-ratio: auto;
 }

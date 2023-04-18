@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula12 - Mídias</title>
+</head>
+<body>
+    <header>
+        <h1>Aula12 - Mídias</h1>
+    </header>
+    <section>
+        <h2>Reprodução de vídeos</h2>
+        <p>Aprendendo a reproduzir vídeos em HMTL5.</p>
+
+        <!-- MP4 OGV WEBM -->
+        <!-- Direitos autorais liberados: Pexels -->
+        <!-- Conversão de vídeo com Handbrake -->
+        <video preload="metadata" src="../midia/new/Erik-Mclean.mp4" width="400px" poster="" controls></video>
+        <video width="400px" controls muted>
+            <source src="../midia/new/Erik-Mclean.mp4" type="video/mp4">
+            <source src="../midia/new/Erik-Mclean.mkv" type="video/mkv">
+            <source src="../midia/new/Erik-Mclean.webm" type="video/webm">
+            <p>Não foi possível reproduzir vídeo, <a href="../midia/Erik-Mclean.mp4" download="Erik-Mclean.mp4">clique aqui para baixar</a>.</p>
+        </video>
+
+        <h2>Inserindo vídeo do youtube</h2>
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/3LiDoHm4ge8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+</body>
+</html>

@@ -14,11 +14,11 @@
     <section>
         <h1>Imagem dinâmica / flexível</h1>
         <p>Aumente/Diminua o tamanho da página do seu navegador para visualizar a imagem se adaptar ao tamanho do navegador.</p>
+        <picture>
+            <source media="(max-width: 520px;)" srcset="img/paris-p.jpg" type="image/jpg">
+            <source media="(max-width: 820px)" srcset="img/paris-m.jpg" type="image/jpg">
+            <img src="img/paris-g.jpg" alt="Imagem flexível">
+        </picture>
     </section>
-    <picture>
-        <source media="(max-width: 520px;)" srcset="img/paris-p.jpg" type="image/jpg">
-        <source media="(max-width: 820px)" srcset="img/paris-m.jpg" type="image/jpg">
-        <img src="img/paris-g.jpg" alt="Imagem flexível">
-    </picture>
 </body>
 </html>

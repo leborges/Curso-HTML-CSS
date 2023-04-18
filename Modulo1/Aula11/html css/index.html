@@ -11,13 +11,30 @@
     <header>
         <h1>Mídias em HTML5</h1>
     </header>
-    <h2>Imagem Dinâmica</h2>
-    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <section>
+        <h2>Imagem Dinâmica</h2>
+        <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
 
-    <picture>
-        <source media="(max-width: 750px)" srcset="../img/pequena.jpg" type="image/jpg">
-        <source media="(max-width: 1050px)" srcset="../img/media.jpg" type="image/jpg">
-        <img src="../img/grande.jpg" alt="Imagem flexível">
-    </picture>
+        <!-- Direitos autorais liberados: Pexels / Unsplash / Flaticons / con-icons -->
+        <picture>
+            <source media="(max-width: 750px)" srcset="../img/pequena.jpg" type="image/jpg">
+            <source media="(max-width: 1050px)" srcset="../img/media.jpg" type="image/jpg">
+            <img src="../img/grande.jpg" alt="Imagem flexível">
+        </picture>
+
+        <h2>Reproduzindo áudio</h2>
+        <p>Apredendo a reproduzir audio em HTML5.</p>
+
+        <!-- MP3 WAV OGG -->
+        <!-- Direitos autorais liberados: Biblioteca de Audio do Youtube -->
+        <audio preload="none" src="../midia/No-Mercy.mp3" controls autoplay></audio>
+        <br>
+        <audio preload="metadata" controls loop>
+            <source src="../midia/No-Mercy.mp3" type="audio/mpeg">
+            <source src="../midia/No-Mercy.ogg" type="audio/ogg">
+            <source src="../midia/No-Mercy.wav" type="audio/wav">
+            <p>Seu navegador não suporta áudio <a href="../midia/No-Mercy.mp3" download="No-Mercy.mp3" type="audio/mpeg">Clique aqui para fazer download</a></p>
+        </audio>
+    </section>
 </body>
 </html>
