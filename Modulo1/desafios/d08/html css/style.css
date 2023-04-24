@@ -1,0 +1,40 @@
+body {
+    font: 14pt Arial;
+}
+.pagina-cinza {
+    min-height: 835px;
+    background: linear-gradient(.10turn, rgb(0, 0, 0), 40%, rgb(129, 129, 129));
+    color: white;
+}
+.pagina-cinza a {
+    color: rgb(194, 194, 194);
+}
+.pagina-amarela {
+    min-height: 835px;
+    background: linear-gradient(.10turn, rgb(255, 191, 1), 40%, rgba(217, 255, 0, 0.308));
+    color: rgb(130, 122, 2);
+}
+.pagina-amarela a {
+    color: rgb(130, 122, 2);
+}
+.pagina-verde {
+    min-height: 835px;
+    background: linear-gradient(.10turn, rgb(0, 106, 21), 40%, rgba(30, 191, 19, 0.48));
+    color: rgb(10, 64, 7);
+}
+.pagina-verde a {
+    color: rgb(10, 64, 7);
+}
+header {
+    padding: 1px;
+    max-width: 550px;
+    text-align: center;
+    margin: auto;
+}
+section p, h2 {
+    text-indent: 20px;
+}
+section h1 {
+    text-align: center;
+    text-transform: uppercase;
+}

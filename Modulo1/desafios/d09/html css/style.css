@@ -1,0 +1,25 @@
+body {
+    font: normal 15pt Arial;
+    text-align: center;
+    height: 815px;
+    background: rgb(45, 45, 45);
+    color: whitesmoke;
+}
+a { 
+    color: whitesmoke;
+    text-decoration: none;
+}
+a :hover { 
+    color: whitesmoke;
+    text-decoration: underline;
+}
+img {
+    width: 300px;
+    margin: 10px;
+    border: 2px solid black;
+}
+.back-button {
+    filter: invert();
+    border: 0px solid black;
+    width: 40px;
+}
