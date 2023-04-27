@@ -1,0 +1,40 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to top, #A8B545, #6A8C69);
+    background-attachment: fixed;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #02455496;
+}
+
+h1 {
+    color: #53736A;
+    text-align: center;
+    text-shadow: 1px 1px 2px #0245544d;
+}
+
+h2 {
+    color: #6A8C69;
+}
+
+p {
+    color: #2b2b25;
+    text-align: justify;
+}
+
+a {
+    background-color: #6A8C69;
+}
+
+a:hover {
+    background-color: #6A8C69;
+}

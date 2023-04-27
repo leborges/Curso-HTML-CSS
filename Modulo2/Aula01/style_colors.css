@@ -1,0 +1,18 @@
+/* Configurações globais */
+* { 
+    height: 80%;
+}
+
+body {
+    color: #614111;
+    background-image: linear-gradient(to top, #F8D741, #D9AB38, #F0B04B, #D98638, #F87F41);
+    background-attachment: fixed;
+}
+
+a {
+    background-color: #AD751F;
+}
+
+a:hover {
+    background-color: #614D2F;
+}

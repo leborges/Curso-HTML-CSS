@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    background-color: darkgrey;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+a:hover {
+    /* font-weight: 600; */
+    text-decoration: underline;
+    background-color: gray;
+}
+
+footer {
+    position: flex;
+    height: 90px;
+    width: 50%;
+    bottom: 0px;
+    /* background-color: #614111; */
+    margin: auto;
+}
+
+footer, p#next {
+    position: absolute;
+    right: 0px;
+}
+
+footer, p#prev {
+    position: absolute;
+    left: 0px;
+}
