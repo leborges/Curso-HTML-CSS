@@ -1,0 +1,34 @@
+
+/* 
+WEB SAFE COMBINATINATION
+  Qual escrito ao lado da outra funcionam como ifelse, caso a fonte mais a esquerda não funcione pula para a próxima.
+    
+  font-family: Arial, Helvetica, sans-serif;
+
+Import from Google Fonts → Lexend w/ weight 200, 300 e 400 */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    font: normal 200 1em Lexend;
+    /* font-family: Arial; */
+    /* font-family: 'Courier New'; */
+    /* font-family: Verdana; */
+    /* font-family: Helvetica; */
+}
+
+/*
+
+RECOMENDAÇÕES
+px / em → 16px geralmente = 1em
+
+MEDIDA ABSOLUTA
+cm / mm / in / px / pt / pc
+
+MEDIDA RELATIVA
+em / ex / rem / vw / vh / %
+
+*/
+ 
+/*
+SHORTHAND FONT
+font-style → font-weight → font-size → font-family
+*/
